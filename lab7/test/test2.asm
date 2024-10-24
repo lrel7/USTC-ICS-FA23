@@ -1,0 +1,38 @@
+.ORIG x1000
+SOMEthing .FILL x3000
+BR SOMEthing
+INtheWAY .STRINGZ "sheMoves....."
+BRNZP SOMEthing
+BRZ THREE
+BRNP INtheWAY
+JSR INtheWAY
+RET
+RET
+RET
+RET
+ONE RET
+RET
+TWO RET
+RET
+JSRR R4
+LD R1, ONE
+LDI R7, TWO
+ST R1, ONE
+ST R1, TWO
+ST R7, ONE
+ST R7, TWO
+STI R0 SOMEthing
+BRP SOMEthing
+TRAP xfF
+TRAP x00
+whywhywhywhywhy .BLKW xaf
+yesyes .STRINGZ "hello_world__________!#$%^&*(()99999"
+LEA R7 whywhywhywhywhy
+.FILL #999
+.FILL #129
+.FILL x-98
+.FILL xfB
+RTI
+THREE RTI
+RTI
+.END

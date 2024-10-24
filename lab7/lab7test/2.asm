@@ -1,0 +1,4 @@
+.ORIG x3200
+ADD R0, R0, #10
+ADD R1, R0, R0
+.END

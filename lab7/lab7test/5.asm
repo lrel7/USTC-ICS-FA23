@@ -1,0 +1,5 @@
+.ORIG x3500
+DATA .FILL x1234
+MEM .BLKW #10
+S .STRINGZ "abcdef"
+.END

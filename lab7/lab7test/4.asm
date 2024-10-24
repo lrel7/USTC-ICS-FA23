@@ -1,0 +1,7 @@
+.ORIG x3400
+AND R0, R0, #0
+ADD R1, R0, #11
+ADD R2, R0, #-14
+AND R3, R1, R2
+NOT R4, R3
+.END
